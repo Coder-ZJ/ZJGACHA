@@ -15,6 +15,16 @@
 		0A8358B6207215A3002E3E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358B5207215A3002E3E43 /* main.m */; };
 		0A8358C0207215A4002E3E43 /* ZJGACHATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358BF207215A4002E3E43 /* ZJGACHATests.m */; };
 		0A8358CB207215A4002E3E43 /* ZJGACHAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358CA207215A4002E3E43 /* ZJGACHAUITests.m */; };
+		0A83591620721885002E3E43 /* ZJDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358E620721885002E3E43 /* ZJDiscoverViewController.m */; };
+		0A83591720721885002E3E43 /* ZJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358EC20721885002E3E43 /* ZJHomeViewController.m */; };
+		0A83591820721885002E3E43 /* ZJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358F220721885002E3E43 /* ZJMessageViewController.m */; };
+		0A83591920721885002E3E43 /* ZJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358F820721885002E3E43 /* ZJMineViewController.m */; };
+		0A83591A20721885002E3E43 /* ZJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358FF20721885002E3E43 /* ZJBaseViewController.m */; };
+		0A83591B20721885002E3E43 /* ZJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A83590620721885002E3E43 /* ZJLoginViewController.m */; };
+		0A83591C20721885002E3E43 /* ZJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A83590B20721885002E3E43 /* ZJNavigationViewController.m */; };
+		0A83591D20721885002E3E43 /* ZJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A83590F20721885002E3E43 /* ZJTabBarViewController.m */; };
+		0A83591E20721885002E3E43 /* ZJTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A83591320721885002E3E43 /* ZJTopicViewController.m */; };
+		A96674B1EF17B714654D3EAC /* libPods-ZJGACHA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0D750A08A800336EB8F1B3 /* libPods-ZJGACHA.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,29 @@
 		0A8358C6207215A4002E3E43 /* ZJGACHAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJGACHAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8358CA207215A4002E3E43 /* ZJGACHAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJGACHAUITests.m; sourceTree = "<group>"; };
 		0A8358CC207215A4002E3E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8358E520721885002E3E43 /* ZJDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverViewController.h; sourceTree = "<group>"; };
+		0A8358E620721885002E3E43 /* ZJDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverViewController.m; sourceTree = "<group>"; };
+		0A8358EB20721885002E3E43 /* ZJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHomeViewController.h; sourceTree = "<group>"; };
+		0A8358EC20721885002E3E43 /* ZJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomeViewController.m; sourceTree = "<group>"; };
+		0A8358F120721885002E3E43 /* ZJMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMessageViewController.h; sourceTree = "<group>"; };
+		0A8358F220721885002E3E43 /* ZJMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMessageViewController.m; sourceTree = "<group>"; };
+		0A8358F720721885002E3E43 /* ZJMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMineViewController.h; sourceTree = "<group>"; };
+		0A8358F820721885002E3E43 /* ZJMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMineViewController.m; sourceTree = "<group>"; };
+		0A8358FE20721885002E3E43 /* ZJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBaseViewController.h; sourceTree = "<group>"; };
+		0A8358FF20721885002E3E43 /* ZJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBaseViewController.m; sourceTree = "<group>"; };
+		0A83590520721885002E3E43 /* ZJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLoginViewController.h; sourceTree = "<group>"; };
+		0A83590620721885002E3E43 /* ZJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLoginViewController.m; sourceTree = "<group>"; };
+		0A83590A20721885002E3E43 /* ZJNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNavigationViewController.h; sourceTree = "<group>"; };
+		0A83590B20721885002E3E43 /* ZJNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNavigationViewController.m; sourceTree = "<group>"; };
+		0A83590E20721885002E3E43 /* ZJTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTabBarViewController.h; sourceTree = "<group>"; };
+		0A83590F20721885002E3E43 /* ZJTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarViewController.m; sourceTree = "<group>"; };
+		0A83591220721885002E3E43 /* ZJTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTopicViewController.h; sourceTree = "<group>"; };
+		0A83591320721885002E3E43 /* ZJTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTopicViewController.m; sourceTree = "<group>"; };
+		0A83591F207218A6002E3E43 /* ZJGACHA.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJGACHA.pch; sourceTree = "<group>"; };
+		0A8359202072289D002E3E43 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		980D200D8B42620B74F9B1E1 /* Pods-ZJGACHA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJGACHA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJGACHA/Pods-ZJGACHA.debug.xcconfig"; sourceTree = "<group>"; };
+		BD0D750A08A800336EB8F1B3 /* libPods-ZJGACHA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJGACHA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9683C72AE75F99D98C57FC /* Pods-ZJGACHA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJGACHA.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJGACHA/Pods-ZJGACHA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96674B1EF17B714654D3EAC /* libPods-ZJGACHA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +115,16 @@
 		0A83589A207215A3002E3E43 = {
 			isa = PBXGroup;
 			children = (
+				0A8358E220721885002E3E43 /* Classes */,
+				0A8358DD20721885002E3E43 /* Expand */,
+				0A8358D820721885002E3E43 /* Resource */,
+				0A8358DC20721885002E3E43 /* Vender */,
 				0A8358A5207215A3002E3E43 /* ZJGACHA */,
 				0A8358BE207215A4002E3E43 /* ZJGACHATests */,
 				0A8358C9207215A4002E3E43 /* ZJGACHAUITests */,
 				0A8358A4207215A3002E3E43 /* Products */,
+				E73E675489D338FB7AE01945 /* Pods */,
+				B5625E9AD956255764E32D7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +150,7 @@
 				0A8358B1207215A3002E3E43 /* LaunchScreen.storyboard */,
 				0A8358B4207215A3002E3E43 /* Info.plist */,
 				0A8358B5207215A3002E3E43 /* main.m */,
+				0A83591F207218A6002E3E43 /* ZJGACHA.pch */,
 			);
 			path = ZJGACHA;
 			sourceTree = "<group>";
@@ -132,6 +173,390 @@
 			path = ZJGACHAUITests;
 			sourceTree = "<group>";
 		};
+		0A8358D820721885002E3E43 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358D920721885002E3E43 /* Audio */,
+				0A8358DA20721885002E3E43 /* File */,
+				0A8358DB20721885002E3E43 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0A8358D920721885002E3E43 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		0A8358DA20721885002E3E43 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		0A8358DB20721885002E3E43 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0A8358DC20721885002E3E43 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		0A8358DD20721885002E3E43 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358DE20721885002E3E43 /* Category */,
+				0A8358DF20721885002E3E43 /* Custom */,
+				0A8358E020721885002E3E43 /* Macros */,
+				0A8358E120721885002E3E43 /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		0A8358DE20721885002E3E43 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0A8358DF20721885002E3E43 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		0A8358E020721885002E3E43 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				0A8359202072289D002E3E43 /* Macros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		0A8358E120721885002E3E43 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0A8358E220721885002E3E43 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358E320721885002E3E43 /* Discover */,
+				0A8358E920721885002E3E43 /* Home */,
+				0A8358EF20721885002E3E43 /* Message */,
+				0A8358F520721885002E3E43 /* Mine */,
+				0A8358FB20721885002E3E43 /* Other */,
+				0A83591020721885002E3E43 /* Topic */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A8358E320721885002E3E43 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358E420721885002E3E43 /* Controller */,
+				0A8358E720721885002E3E43 /* Model */,
+				0A8358E820721885002E3E43 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0A8358E420721885002E3E43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358E520721885002E3E43 /* ZJDiscoverViewController.h */,
+				0A8358E620721885002E3E43 /* ZJDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A8358E720721885002E3E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A8358E820721885002E3E43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A8358E920721885002E3E43 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358EA20721885002E3E43 /* Controller */,
+				0A8358ED20721885002E3E43 /* Model */,
+				0A8358EE20721885002E3E43 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0A8358EA20721885002E3E43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358EB20721885002E3E43 /* ZJHomeViewController.h */,
+				0A8358EC20721885002E3E43 /* ZJHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A8358ED20721885002E3E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A8358EE20721885002E3E43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A8358EF20721885002E3E43 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358F020721885002E3E43 /* Controller */,
+				0A8358F320721885002E3E43 /* Model */,
+				0A8358F420721885002E3E43 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0A8358F020721885002E3E43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358F120721885002E3E43 /* ZJMessageViewController.h */,
+				0A8358F220721885002E3E43 /* ZJMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A8358F320721885002E3E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A8358F420721885002E3E43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A8358F520721885002E3E43 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358F620721885002E3E43 /* Controller */,
+				0A8358F920721885002E3E43 /* Model */,
+				0A8358FA20721885002E3E43 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		0A8358F620721885002E3E43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358F720721885002E3E43 /* ZJMineViewController.h */,
+				0A8358F820721885002E3E43 /* ZJMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A8358F920721885002E3E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A8358FA20721885002E3E43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A8358FB20721885002E3E43 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358FC20721885002E3E43 /* Base */,
+				0A83590220721885002E3E43 /* Guide */,
+				0A83590320721885002E3E43 /* Login */,
+				0A83590920721885002E3E43 /* Navigation */,
+				0A83590C20721885002E3E43 /* SDK */,
+				0A83590D20721885002E3E43 /* TabBar */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A8358FC20721885002E3E43 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358FD20721885002E3E43 /* Controller */,
+				0A83590020721885002E3E43 /* Model */,
+				0A83590120721885002E3E43 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0A8358FD20721885002E3E43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A8358FE20721885002E3E43 /* ZJBaseViewController.h */,
+				0A8358FF20721885002E3E43 /* ZJBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A83590020721885002E3E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A83590120721885002E3E43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A83590220721885002E3E43 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		0A83590320721885002E3E43 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0A83590420721885002E3E43 /* Controller */,
+				0A83590720721885002E3E43 /* Model */,
+				0A83590820721885002E3E43 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0A83590420721885002E3E43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A83590520721885002E3E43 /* ZJLoginViewController.h */,
+				0A83590620721885002E3E43 /* ZJLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A83590720721885002E3E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A83590820721885002E3E43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A83590920721885002E3E43 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0A83590A20721885002E3E43 /* ZJNavigationViewController.h */,
+				0A83590B20721885002E3E43 /* ZJNavigationViewController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		0A83590C20721885002E3E43 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		0A83590D20721885002E3E43 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A83590E20721885002E3E43 /* ZJTabBarViewController.h */,
+				0A83590F20721885002E3E43 /* ZJTabBarViewController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0A83591020721885002E3E43 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				0A83591120721885002E3E43 /* Controller */,
+				0A83591420721885002E3E43 /* Model */,
+				0A83591520721885002E3E43 /* View */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		0A83591120721885002E3E43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A83591220721885002E3E43 /* ZJTopicViewController.h */,
+				0A83591320721885002E3E43 /* ZJTopicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A83591420721885002E3E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A83591520721885002E3E43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5625E9AD956255764E32D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD0D750A08A800336EB8F1B3 /* libPods-ZJGACHA.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E73E675489D338FB7AE01945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				980D200D8B42620B74F9B1E1 /* Pods-ZJGACHA.debug.xcconfig */,
+				FC9683C72AE75F99D98C57FC /* Pods-ZJGACHA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +564,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A8358CF207215A4002E3E43 /* Build configuration list for PBXNativeTarget "ZJGACHA" */;
 			buildPhases = (
+				12F3A8E646F3E6ADEC252D30 /* [CP] Check Pods Manifest.lock */,
 				0A83589F207215A3002E3E43 /* Sources */,
 				0A8358A0207215A3002E3E43 /* Frameworks */,
 				0A8358A1207215A3002E3E43 /* Resources */,
+				B0C4555A7E962E3D0C8111D5 /* [CP] Embed Pods Frameworks */,
+				B34CC4040D8B6B0669C0A7DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +622,7 @@
 		0A83589B207215A3002E3E43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZJ;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "尾灯";
 				TargetAttributes = {
@@ -260,14 +689,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12F3A8E646F3E6ADEC252D30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0C4555A7E962E3D0C8111D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJGACHA/Pods-ZJGACHA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34CC4040D8B6B0669C0A7DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJGACHA/Pods-ZJGACHA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A83589F207215A3002E3E43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A83591E20721885002E3E43 /* ZJTopicViewController.m in Sources */,
 				0A8358AB207215A3002E3E43 /* ViewController.m in Sources */,
 				0A8358B6207215A3002E3E43 /* main.m in Sources */,
+				0A83591820721885002E3E43 /* ZJMessageViewController.m in Sources */,
 				0A8358A8207215A3002E3E43 /* AppDelegate.m in Sources */,
+				0A83591B20721885002E3E43 /* ZJLoginViewController.m in Sources */,
+				0A83591920721885002E3E43 /* ZJMineViewController.m in Sources */,
+				0A83591C20721885002E3E43 /* ZJNavigationViewController.m in Sources */,
+				0A83591720721885002E3E43 /* ZJHomeViewController.m in Sources */,
+				0A83591D20721885002E3E43 /* ZJTabBarViewController.m in Sources */,
+				0A83591620721885002E3E43 /* ZJDiscoverViewController.m in Sources */,
+				0A83591A20721885002E3E43 /* ZJBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +914,13 @@
 		};
 		0A8358D0207215A4002E3E43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980D200D8B42620B74F9B1E1 /* Pods-ZJGACHA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XFV7U624AZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJGACHA/ZJGACHA.pch";
 				INFOPLIST_FILE = ZJGACHA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quickpark.ZJGACHA;
@@ -442,10 +931,13 @@
 		};
 		0A8358D1207215A4002E3E43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9683C72AE75F99D98C57FC /* Pods-ZJGACHA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XFV7U624AZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJGACHA/ZJGACHA.pch";
 				INFOPLIST_FILE = ZJGACHA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quickpark.ZJGACHA;

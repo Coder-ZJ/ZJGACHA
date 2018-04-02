@@ -1,0 +1,11 @@
+target 'ZJGACHA' do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'YYKit'
+pod 'MBProgressHUD'
+pod 'UITableView+FDTemplateLayoutCell_Bell'
+pod 'Masonry'
+
+end
