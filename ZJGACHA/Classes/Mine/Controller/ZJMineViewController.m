@@ -16,9 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    [self setupNavView];
 }
 
+- (void)setupNavView
+{
+    [super setupNavView];
+    self.navView.backgroundColor = [ZJColor clearColor];
+    [self.navView.rightButton setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+    self.navView.showBottomLine = NO;
+    self.navView.rightButtonBlock = ^{
+        
+    };
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

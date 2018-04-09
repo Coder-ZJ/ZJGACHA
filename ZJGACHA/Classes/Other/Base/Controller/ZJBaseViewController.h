@@ -10,4 +10,8 @@
 
 @interface ZJBaseViewController : UIViewController
 
+@property (nonatomic, strong) ZJNavigationView *navView;
+
+- (void)setupNavView;
+
 @end

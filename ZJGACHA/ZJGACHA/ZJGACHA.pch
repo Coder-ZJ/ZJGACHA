@@ -25,5 +25,19 @@
 
 #pragma mark -----------------自定义头文件-----------------
 #import "Macros.h"
+#import "ZJColor.h"
+#import "ZJNavigationView.h"
+#import "ZJLoadingView.h"
+#import "ZJLoadFailedView.h"
+#import "ZJRefreshGifHeader.h"
+#import "ZJRefreshGifFooter.h"
+#import "Interface.h"
+#import "NSArray+ZJAdd.h"
+#import "ZJBaseModel.h"
+#import "ZJBaseTableView.h"
+#import "ZJBaseTabelViewCell.h"
+#import "ZJNetworkHelper.h"
+#import "NSString+ZJNSString.h"
+#import "ZJImageView.h"
 
 #endif /* ZJGACHA_pch */

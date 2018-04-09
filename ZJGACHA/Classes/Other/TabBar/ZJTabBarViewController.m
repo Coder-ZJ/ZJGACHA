@@ -13,7 +13,7 @@
 #import "ZJMessageViewController.h"
 #import "ZJMineViewController.h"
 #import "ZJNavigationViewController.h"
-
+#import "YYFPSLabel.h"
 
 @interface ZJTabBarViewController ()
 
@@ -24,15 +24,15 @@
 + (void)initialize
 {
     //未选中item的字体大小、颜色
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor redColor],NSFontAttributeName:[UIFont systemFontOfSize:12]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[ZJColor colorWithRed:136 withGreen:134 withBlue:135 withAlpha:1],NSFontAttributeName:[UIFont systemFontOfSize:10]} forState:UIControlStateNormal];
 
     //选中item的字体大小、颜色
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor greenColor],NSFontAttributeName:[UIFont systemFontOfSize:12]} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[ZJColor appMainColor],NSFontAttributeName:[UIFont systemFontOfSize:10]} forState:UIControlStateSelected];
 
     //底部tabBar样式
-    //[[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
-    //[[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
-    //[[UITabBar appearance] setShadowImage:[UIImage imageWithColor:[ZMColor colorWithHexString:@"0xf5f5f5"]]];
+    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
+    [[UITabBar appearance] setShadowImage:[UIImage imageWithColor:[ZJColor colorWithHexString:@"0xf5f5f5"]]];
 }
 
 - (void)viewDidLoad {
@@ -58,8 +58,19 @@
 
     //我的
     [self addChildVC:[[ZJMineViewController alloc] init] title:@"我的" image:@"tabbar_icon3" selectedImage:@"tabbar_icon3_s"];
+
+#if DEBUG
+    //显示当前帧率
+    [self setupFPSLabel];
+#endif
 }
 
+#pragma mark -    FPS Label 显示当前帧率
+- (void)setupFPSLabel{
+    YYFPSLabel *label = [[YYFPSLabel alloc] init];
+    label.frame = CGRectMake(10, kScreenHeight - 49 - 30 - 10, 60, 30);
+    [self.view addSubview:label];
+}
 
 /**
  添加子控制器

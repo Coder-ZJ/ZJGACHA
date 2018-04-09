@@ -21,6 +21,7 @@
     ZJTabBarViewController *tabBar = [[ZJTabBarViewController alloc] init];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = tabBar;
+    tabBar.selectedIndex = 1;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
 
