@@ -31,7 +31,7 @@ static NSArray *s_refreshingImages = nil;
 
 - (instancetype) initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
-        //self.backgroundColor = [ZJColor colorWithRed:0 withGreen:0 withBlue:0 withAlpha:0.5];
+        self.backgroundColor = [ZJColor appGraySpaceColor];
         [self addAnimalImages];
     }
     return self;

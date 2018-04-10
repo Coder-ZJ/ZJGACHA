@@ -18,6 +18,7 @@
     [super viewDidLoad];
 
     [self setupNavView];
+
 }
 
 - (void)setupNavView
@@ -25,6 +26,7 @@
     [super setupNavView];
     [self.navView.centerButton setTitle:@"话题" forState:UIControlStateNormal];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

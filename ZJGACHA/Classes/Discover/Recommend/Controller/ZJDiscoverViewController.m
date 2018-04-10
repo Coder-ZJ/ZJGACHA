@@ -15,13 +15,13 @@
 @interface ZJDiscoverViewController ()<SPPageMenuDelegate,UIScrollViewDelegate>
 
 @property (nonatomic, strong) NSArray *pageMenuTitles;
-
 @property (nonatomic, strong) UIScrollView *scrollView;
-
 @property (nonatomic, strong) NSMutableArray *myChildViewControllers;
-
 @property (nonatomic, strong) SPPageMenu *pageMenu;
-
+@property (nonatomic, strong) ZJDiscoverRecommendView *recommendView;
+@property (nonatomic, strong) ZJDiscoverInsetView *insetView;
+@property (nonatomic, strong) ZJDiscoverArticleView *articleView;
+@property (nonatomic, strong) ZJDiscoverInsetView *COSView;
 @end
 
 @implementation ZJDiscoverViewController
@@ -83,7 +83,7 @@
     if (labs(toIndex - fromIndex) >= 2) {
         [self.scrollView setContentOffset:CGPointMake(kScreenWidth * toIndex, 0) animated:NO];
     }else{
-        [self.scrollView setContentOffset:CGPointMake(kScreenWidth * toIndex, 0) animated:YES];
+        [self.scrollView setContentOffset:CGPointMake(kScreenWidth * toIndex, 0) animated:NO];
     }
     if (self.myChildViewControllers.count <= toIndex) {
         return;
@@ -103,36 +103,48 @@
     switch (index) {
         case 0:
         {
-            ZJDiscoverRecommendView *recommendView = [[ZJDiscoverRecommendView alloc] initWithFrame:CGRectMake(kScreenWidth * index, 0, kScreenWidth, self.scrollView.height)];
-            [self.scrollView addSubview:recommendView];
-            //将当前视图存入数组
-            [self.myChildViewControllers replaceObjectAtIndex:index withObject:recommendView];
+            if (!_recommendView) {
+                ZJDiscoverRecommendView *recommendView = [[ZJDiscoverRecommendView alloc] initWithFrame:CGRectMake(kScreenWidth * index, 0, kScreenWidth, self.scrollView.height)];
+                [self.scrollView addSubview:recommendView];
+                _recommendView = recommendView;
+                //将当前视图存入数组
+                [self.myChildViewControllers replaceObjectAtIndex:index withObject:recommendView];
+            }
         }
             break;
         case 1:
         {
-            ZJDiscoverInsetView *insetView = [[ZJDiscoverInsetView alloc] initWithFrame:CGRectMake(kScreenWidth * index, 0, kScreenWidth, self.scrollView.height)];
-            [self.scrollView addSubview:insetView];
-            insetView.pageType = pageViewTypeInset;
-            //将当前视图存入数组
-            [self.myChildViewControllers replaceObjectAtIndex:index withObject:insetView];
+            if (!_insetView) {
+                ZJDiscoverInsetView *insetView = [[ZJDiscoverInsetView alloc] initWithFrame:CGRectMake(kScreenWidth * index, 0, kScreenWidth, self.scrollView.height)];
+                [self.scrollView addSubview:insetView];
+                _insetView = insetView;
+                insetView.pageType = pageViewTypeInset;
+                //将当前视图存入数组
+                [self.myChildViewControllers replaceObjectAtIndex:index withObject:insetView];
+            }
         }
             break;
         case 2:
         {
-            ZJDiscoverArticleView *articleView = [[ZJDiscoverArticleView alloc] initWithFrame:CGRectMake(kScreenWidth * index, 0, kScreenWidth, self.scrollView.height)];
-            [self.scrollView addSubview:articleView];
-            //将当前视图存入数组
-            [self.myChildViewControllers replaceObjectAtIndex:index withObject:articleView];
+            if (!_articleView) {
+                ZJDiscoverArticleView *articleView = [[ZJDiscoverArticleView alloc] initWithFrame:CGRectMake(kScreenWidth * index, 0, kScreenWidth, self.scrollView.height)];
+                [self.scrollView addSubview:articleView];
+                _articleView = articleView;
+                //将当前视图存入数组
+                [self.myChildViewControllers replaceObjectAtIndex:index withObject:articleView];
+            }
         }
             break;
         case 3:
         {
-            ZJDiscoverInsetView *insetView = [[ZJDiscoverInsetView alloc] initWithFrame:CGRectMake(kScreenWidth * index, 0, kScreenWidth, self.scrollView.height)];
-            [self.scrollView addSubview:insetView];
-            insetView.pageType = pageViewTypeCos;
-            //将当前视图存入数组
-            [self.myChildViewControllers replaceObjectAtIndex:index withObject:insetView];
+            if (!_COSView) {
+                ZJDiscoverInsetView *insetView = [[ZJDiscoverInsetView alloc] initWithFrame:CGRectMake(kScreenWidth * index, 0, kScreenWidth, self.scrollView.height)];
+                [self.scrollView addSubview:insetView];
+                _COSView = insetView;
+                insetView.pageType = pageViewTypeCos;
+                //将当前视图存入数组
+                [self.myChildViewControllers replaceObjectAtIndex:index withObject:insetView];
+            }
         }
             break;
 

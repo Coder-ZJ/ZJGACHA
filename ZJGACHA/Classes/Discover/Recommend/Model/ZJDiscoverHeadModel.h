@@ -10,6 +10,10 @@
 
 @interface ZJDiscoverHeadModel : NSObject
 
+/** uid */
+@property (nonatomic, copy) NSString    *uid;
+/** 图片url */
+@property (nonatomic, copy) NSString    *img;
 /** 图片 */
 @property (nonatomic, strong) UIImage   *icon;
 /** 文字 */

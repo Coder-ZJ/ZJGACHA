@@ -144,6 +144,12 @@
         if (model.top == 1) {
             self.view.topLabel.hidden = NO;
         }
+        [self.view.topImageView mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(20);
+        }];
+        [self.view.topLabel mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.centerX.mas_equalTo(self.view.topImageView).with.offset(2);
+        }];
         self.view.bottomShadow.hidden = NO;
         self.profileView.backgroundColor = [ZJColor clearColor];
         self.profileView.thumbImageView.layer.cornerRadius = 25 * 0.5;
@@ -247,6 +253,7 @@
 {
     if (!_thumbImageView) {
         _thumbImageView = [[ZJImageView alloc] init];
+        //_thumbImageView.contentMode = UIViewContentModeScaleAspectFill;
         [self.mainView addSubview:_thumbImageView];
         [self.mainView sendSubviewToBack:_thumbImageView];
         [_thumbImageView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -265,7 +272,7 @@
         _topImageView.image = image;
         [self.mainView addSubview:_topImageView];
         [_topImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(20);
+            make.left.mas_equalTo(10);
             make.top.mas_equalTo(10);
             make.size.mas_equalTo(image.size);
         }];
@@ -279,17 +286,16 @@
         _topLabel.backgroundColor = [ZJColor colorWithHexString:@"#000000" withAlpha:0.6];
         _topLabel.textColor = [ZJColor whiteColor];
         _topLabel.font = [UIFont systemFontOfSize:11];
-        _topLabel.layer.cornerRadius = 12;
+        _topLabel.layer.cornerRadius = 9;
         _topLabel.layer.masksToBounds = YES;
         _topLabel.text = @"昨日Top1";
         _topLabel.textAlignment = NSTextAlignmentCenter;
         [self.thumbImageView addSubview:_topLabel];
         [_topLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            //make.left.mas_equalTo(10);
             make.centerX.mas_equalTo(self.topImageView).with.offset(2);
             make.top.mas_equalTo(self.topImageView.mas_bottom).with.offset(2);
-            make.width.mas_equalTo([NSString getTitleWidth:@"昨日Top1" withFontSize:11] + 20);
-            make.height.mas_equalTo(24);
+            make.width.mas_equalTo([NSString getTitleWidth:@"昨日Top1" withFontSize:10] + 20);
+            make.height.mas_equalTo(18);
         }];
     }
     return _topLabel;

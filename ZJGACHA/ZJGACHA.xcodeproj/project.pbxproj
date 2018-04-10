@@ -281,6 +281,18 @@
 		0A835B63207A08D7002E3E43 /* ZJDiscoverHotRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B62207A08D7002E3E43 /* ZJDiscoverHotRecommendModel.m */; };
 		0A835B66207A0948002E3E43 /* ZJAuthorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B65207A0948002E3E43 /* ZJAuthorModel.m */; };
 		0A835B69207A1195002E3E43 /* ZMWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B68207A1195002E3E43 /* ZMWaterFlowLayout.m */; };
+		0A835B79207B42FF002E3E43 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B6D207B42FE002E3E43 /* TAAbstractDotView.m */; };
+		0A835B7A207B42FF002E3E43 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B6F207B42FE002E3E43 /* TAAnimatedDotView.m */; };
+		0A835B7B207B42FF002E3E43 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B71207B42FE002E3E43 /* TADotView.m */; };
+		0A835B7C207B42FF002E3E43 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B73207B42FE002E3E43 /* TAPageControl.m */; };
+		0A835B7D207B42FF002E3E43 /* ZMICarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B75207B42FE002E3E43 /* ZMICarouselView.m */; };
+		0A835B7E207B42FF002E3E43 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B78207B42FE002E3E43 /* iCarousel.m */; };
+		0A835B81207B4CFB002E3E43 /* ZJWorkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B80207B4CFB002E3E43 /* ZJWorkModel.m */; };
+		0A835B84207B4D06002E3E43 /* ZJWorksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B83207B4D06002E3E43 /* ZJWorksModel.m */; };
+		0A835B87207B5732002E3E43 /* ZJDiscoverInsetBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B86207B5732002E3E43 /* ZJDiscoverInsetBannerCell.m */; };
+		0A835B8A207B5772002E3E43 /* ZJDiscoverInsetHeadViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B89207B5772002E3E43 /* ZJDiscoverInsetHeadViewCell.m */; };
+		0A835B8D207B690B002E3E43 /* ZJDiscoverInsetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B8C207B690B002E3E43 /* ZJDiscoverInsetModel.m */; };
+		0A835B90207C58D6002E3E43 /* ZJDiscoverHotInsetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B8F207C58D6002E3E43 /* ZJDiscoverHotInsetCell.m */; };
 		A96674B1EF17B714654D3EAC /* libPods-ZJGACHA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0D750A08A800336EB8F1B3 /* libPods-ZJGACHA.a */; };
 /* End PBXBuildFile section */
 
@@ -628,6 +640,30 @@
 		0A835B65207A0948002E3E43 /* ZJAuthorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAuthorModel.m; sourceTree = "<group>"; };
 		0A835B67207A1195002E3E43 /* ZMWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMWaterFlowLayout.h; sourceTree = "<group>"; };
 		0A835B68207A1195002E3E43 /* ZMWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMWaterFlowLayout.m; sourceTree = "<group>"; };
+		0A835B6C207B42FE002E3E43 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		0A835B6D207B42FE002E3E43 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		0A835B6E207B42FE002E3E43 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		0A835B6F207B42FE002E3E43 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		0A835B70207B42FE002E3E43 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		0A835B71207B42FE002E3E43 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		0A835B72207B42FE002E3E43 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		0A835B73207B42FE002E3E43 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		0A835B74207B42FE002E3E43 /* ZMICarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMICarouselView.h; sourceTree = "<group>"; };
+		0A835B75207B42FE002E3E43 /* ZMICarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMICarouselView.m; sourceTree = "<group>"; };
+		0A835B77207B42FE002E3E43 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		0A835B78207B42FE002E3E43 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		0A835B7F207B4CFB002E3E43 /* ZJWorkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJWorkModel.h; sourceTree = "<group>"; };
+		0A835B80207B4CFB002E3E43 /* ZJWorkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJWorkModel.m; sourceTree = "<group>"; };
+		0A835B82207B4D06002E3E43 /* ZJWorksModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJWorksModel.h; sourceTree = "<group>"; };
+		0A835B83207B4D06002E3E43 /* ZJWorksModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJWorksModel.m; sourceTree = "<group>"; };
+		0A835B85207B5732002E3E43 /* ZJDiscoverInsetBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverInsetBannerCell.h; sourceTree = "<group>"; };
+		0A835B86207B5732002E3E43 /* ZJDiscoverInsetBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverInsetBannerCell.m; sourceTree = "<group>"; };
+		0A835B88207B5772002E3E43 /* ZJDiscoverInsetHeadViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverInsetHeadViewCell.h; sourceTree = "<group>"; };
+		0A835B89207B5772002E3E43 /* ZJDiscoverInsetHeadViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverInsetHeadViewCell.m; sourceTree = "<group>"; };
+		0A835B8B207B690B002E3E43 /* ZJDiscoverInsetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverInsetModel.h; sourceTree = "<group>"; };
+		0A835B8C207B690B002E3E43 /* ZJDiscoverInsetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverInsetModel.m; sourceTree = "<group>"; };
+		0A835B8E207C58D6002E3E43 /* ZJDiscoverHotInsetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverHotInsetCell.h; sourceTree = "<group>"; };
+		0A835B8F207C58D6002E3E43 /* ZJDiscoverHotInsetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverHotInsetCell.m; sourceTree = "<group>"; };
 		980D200D8B42620B74F9B1E1 /* Pods-ZJGACHA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJGACHA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJGACHA/Pods-ZJGACHA.debug.xcconfig"; sourceTree = "<group>"; };
 		BD0D750A08A800336EB8F1B3 /* libPods-ZJGACHA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJGACHA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9683C72AE75F99D98C57FC /* Pods-ZJGACHA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJGACHA.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJGACHA/Pods-ZJGACHA.release.xcconfig"; sourceTree = "<group>"; };
@@ -979,6 +1015,8 @@
 		0A8358DC20721885002E3E43 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				0A835B76207B42FE002E3E43 /* iCarousel */,
+				0A835B6A207B42FE002E3E43 /* ZMICarousel */,
 				0A83594320735545002E3E43 /* SPPageMenu */,
 			);
 			path = Vender;
@@ -1206,6 +1244,10 @@
 				0A835948207355BA002E3E43 /* ZJBaseModel.m */,
 				0A835B64207A0948002E3E43 /* ZJAuthorModel.h */,
 				0A835B65207A0948002E3E43 /* ZJAuthorModel.m */,
+				0A835B7F207B4CFB002E3E43 /* ZJWorkModel.h */,
+				0A835B80207B4CFB002E3E43 /* ZJWorkModel.m */,
+				0A835B82207B4D06002E3E43 /* ZJWorksModel.h */,
+				0A835B83207B4D06002E3E43 /* ZJWorksModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1362,6 +1404,8 @@
 				0A835B5C2079EA29002E3E43 /* ZJDiscoverHotCirleModel.m */,
 				0A835B61207A08D7002E3E43 /* ZJDiscoverHotRecommendModel.h */,
 				0A835B62207A08D7002E3E43 /* ZJDiscoverHotRecommendModel.m */,
+				0A835B8B207B690B002E3E43 /* ZJDiscoverInsetModel.h */,
+				0A835B8C207B690B002E3E43 /* ZJDiscoverInsetModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1390,6 +1434,12 @@
 			children = (
 				0A835B3120735AD3002E3E43 /* ZJDiscoverInsetView.h */,
 				0A835B3220735AD3002E3E43 /* ZJDiscoverInsetView.m */,
+				0A835B85207B5732002E3E43 /* ZJDiscoverInsetBannerCell.h */,
+				0A835B86207B5732002E3E43 /* ZJDiscoverInsetBannerCell.m */,
+				0A835B88207B5772002E3E43 /* ZJDiscoverInsetHeadViewCell.h */,
+				0A835B89207B5772002E3E43 /* ZJDiscoverInsetHeadViewCell.m */,
+				0A835B8E207C58D6002E3E43 /* ZJDiscoverHotInsetCell.h */,
+				0A835B8F207C58D6002E3E43 /* ZJDiscoverHotInsetCell.m */,
 			);
 			path = Inset;
 			sourceTree = "<group>";
@@ -1415,6 +1465,40 @@
 				0A835B68207A1195002E3E43 /* ZMWaterFlowLayout.m */,
 			);
 			path = Recommend;
+			sourceTree = "<group>";
+		};
+		0A835B6A207B42FE002E3E43 /* ZMICarousel */ = {
+			isa = PBXGroup;
+			children = (
+				0A835B6B207B42FE002E3E43 /* PageControl */,
+				0A835B74207B42FE002E3E43 /* ZMICarouselView.h */,
+				0A835B75207B42FE002E3E43 /* ZMICarouselView.m */,
+			);
+			path = ZMICarousel;
+			sourceTree = "<group>";
+		};
+		0A835B6B207B42FE002E3E43 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				0A835B6C207B42FE002E3E43 /* TAAbstractDotView.h */,
+				0A835B6D207B42FE002E3E43 /* TAAbstractDotView.m */,
+				0A835B6E207B42FE002E3E43 /* TAAnimatedDotView.h */,
+				0A835B6F207B42FE002E3E43 /* TAAnimatedDotView.m */,
+				0A835B70207B42FE002E3E43 /* TADotView.h */,
+				0A835B71207B42FE002E3E43 /* TADotView.m */,
+				0A835B72207B42FE002E3E43 /* TAPageControl.h */,
+				0A835B73207B42FE002E3E43 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		0A835B76207B42FE002E3E43 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				0A835B77207B42FE002E3E43 /* iCarousel.h */,
+				0A835B78207B42FE002E3E43 /* iCarousel.m */,
+			);
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 		B5625E9AD956255764E32D7B /* Frameworks */ = {
@@ -1844,6 +1928,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A835B84207B4D06002E3E43 /* ZJWorksModel.m in Sources */,
 				0A835B60207A0840002E3E43 /* ZJDiscoverRecommendHotRecommendCell.m in Sources */,
 				0A835B3F2074AE62002E3E43 /* ZJDiscoverRecommendHeadView.m in Sources */,
 				0A83591E20721885002E3E43 /* ZJTopicViewController.m in Sources */,
@@ -1852,9 +1937,12 @@
 				0A8358B6207215A3002E3E43 /* main.m in Sources */,
 				0A83593820734AC8002E3E43 /* ZJRefreshGifFooter.m in Sources */,
 				0A835942207351DC002E3E43 /* ZJBaseTabelViewCell.m in Sources */,
+				0A835B8A207B5772002E3E43 /* ZJDiscoverInsetHeadViewCell.m in Sources */,
 				0A835B3620735AE4002E3E43 /* ZJDiscoverArticleView.m in Sources */,
 				0A835B392073626B002E3E43 /* NSArray+ZJAdd.m in Sources */,
 				0A835B3320735AD3002E3E43 /* ZJDiscoverInsetView.m in Sources */,
+				0A835B7E207B42FF002E3E43 /* iCarousel.m in Sources */,
+				0A835B81207B4CFB002E3E43 /* ZJWorkModel.m in Sources */,
 				0A835B452074BA67002E3E43 /* ZJDiscoverRecommendHotTopicCell.m in Sources */,
 				0A83592F20732BEB002E3E43 /* ZJLoadFailedView.m in Sources */,
 				0A835B66207A0948002E3E43 /* ZJAuthorModel.m in Sources */,
@@ -1862,19 +1950,27 @@
 				0A83591820721885002E3E43 /* ZJMessageViewController.m in Sources */,
 				0A8358A8207215A3002E3E43 /* AppDelegate.m in Sources */,
 				0A83592920732460002E3E43 /* YYFPSLabel.m in Sources */,
+				0A835B7B207B42FF002E3E43 /* TADotView.m in Sources */,
+				0A835B7A207B42FF002E3E43 /* TAAnimatedDotView.m in Sources */,
 				0A835B4E2079C518002E3E43 /* ZJDiscoverRecommendBannerModel.m in Sources */,
 				0A835B5A2079E5A8002E3E43 /* ZJImageView.m in Sources */,
 				0A83594620735545002E3E43 /* SPPageMenu.m in Sources */,
 				0A835B3C20746631002E3E43 /* ZJDiscoverRecommendBannerCell.m in Sources */,
 				0A835B482074CD7C002E3E43 /* ZJDiscoverRecommendMoreTitleCell.m in Sources */,
+				0A835B87207B5732002E3E43 /* ZJDiscoverInsetBannerCell.m in Sources */,
 				0A83593520734AA9002E3E43 /* ZJRefreshGifHeader.m in Sources */,
+				0A835B8D207B690B002E3E43 /* ZJDiscoverInsetModel.m in Sources */,
+				0A835B7D207B42FF002E3E43 /* ZMICarouselView.m in Sources */,
 				0A835B572079E404002E3E43 /* ZJDiscoverHotTopicModel.m in Sources */,
 				0A83592C20732BD4002E3E43 /* ZJLoadingView.m in Sources */,
 				0A83591B20721885002E3E43 /* ZJLoginViewController.m in Sources */,
+				0A835B90207C58D6002E3E43 /* ZJDiscoverHotInsetCell.m in Sources */,
+				0A835B7C207B42FF002E3E43 /* TAPageControl.m in Sources */,
 				0A83591920721885002E3E43 /* ZJMineViewController.m in Sources */,
 				0A835B542079D323002E3E43 /* ZJDiscoverRecommendModel.m in Sources */,
 				0A83591C20721885002E3E43 /* ZJNavigationViewController.m in Sources */,
 				0A835B422074B4C3002E3E43 /* ZJDiscoverHeadModel.m in Sources */,
+				0A835B79207B42FF002E3E43 /* TAAbstractDotView.m in Sources */,
 				0A835949207355BA002E3E43 /* ZJBaseModel.m in Sources */,
 				0A83593F207351CE002E3E43 /* ZJBaseTableView.m in Sources */,
 				0A835B3020735ABD002E3E43 /* ZJDiscoverRecommendView.m in Sources */,

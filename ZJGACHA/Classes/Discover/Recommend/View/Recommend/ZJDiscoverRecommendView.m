@@ -85,7 +85,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [ZJColor whiteColor];
         _page = 1;
         [self setupUI];
     }

@@ -8,15 +8,29 @@
 
 #import "ZJDiscoverArticleView.h"
 
+@interface ZJDiscoverArticleView ()
+
+@property (nonatomic, strong) ZJBaseTableView *tableView;
+
+@end
+
 @implementation ZJDiscoverArticleView
+
+#pragma mark -----------------lazy-----------------
+
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor purpleColor];
+
+
+
     }
     return self;
 }
+
+
 
 @end
