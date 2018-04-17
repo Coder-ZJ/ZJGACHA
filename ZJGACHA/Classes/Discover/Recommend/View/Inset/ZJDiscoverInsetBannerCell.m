@@ -37,10 +37,8 @@
         //推荐类型名
         if (workModel.type == 2) {
             self.remLabel.text = @"推荐画师";
-        }else if (workModel.type == 3) {
-            self.remLabel.text = @"推荐Coser";
         }else{
-            self.remLabel.text = @"推荐写手";
+            self.remLabel.text = @"推荐Coser";
         }
     }
     [self.icarouselView reloadData];
@@ -59,7 +57,7 @@
 
 - (void)ZMICarouselView:(ZMICarouselView *)carousel didSelectItemAtIndex:(NSInteger)index{
     NSLog(@"点击了 = %ld",index);
-    [self.viewController.navigationController pushViewController:[NSClassFromString(@"ViewController") new] animated:YES];
+    
 }
 
 - (void)ZMICarouselViews:(iCarousel *)carousel didScrollToIndex:(NSInteger)index{
