@@ -253,7 +253,6 @@
 {
     if (!_thumbImageView) {
         _thumbImageView = [[ZJImageView alloc] init];
-        //_thumbImageView.contentMode = UIViewContentModeScaleAspectFill;
         [self.mainView addSubview:_thumbImageView];
         [self.mainView sendSubviewToBack:_thumbImageView];
         [_thumbImageView mas_makeConstraints:^(MASConstraintMaker *make) {

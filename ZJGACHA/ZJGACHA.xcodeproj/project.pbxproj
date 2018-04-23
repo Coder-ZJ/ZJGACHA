@@ -35,6 +35,8 @@
 		0A61D25A20885B5F001BEA1C /* ZJDiscoverHotInsetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61D23C20885B5E001BEA1C /* ZJDiscoverHotInsetCell.m */; };
 		0A61D25B20885B5F001BEA1C /* ZJDiscoverInsetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61D23D20885B5E001BEA1C /* ZJDiscoverInsetView.m */; };
 		0A61D25C20885B5F001BEA1C /* ZJDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61D24020885B5F001BEA1C /* ZJDiscoverViewController.m */; };
+		0A61D26020887E14001BEA1C /* ZJDiscoverRankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61D25F20887E14001BEA1C /* ZJDiscoverRankView.m */; };
+		0A61D266208880C3001BEA1C /* ZJDiscoverRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61D265208880C3001BEA1C /* ZJDiscoverRankViewController.m */; };
 		0A8358A8207215A3002E3E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358A7207215A3002E3E43 /* AppDelegate.m */; };
 		0A8358AB207215A3002E3E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8358AA207215A3002E3E43 /* ViewController.m */; };
 		0A8358AE207215A3002E3E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8358AC207215A3002E3E43 /* Main.storyboard */; };
@@ -301,6 +303,12 @@
 		0A835B81207B4CFB002E3E43 /* ZJWorkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B80207B4CFB002E3E43 /* ZJWorkModel.m */; };
 		0A835B84207B4D06002E3E43 /* ZJWorksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B83207B4D06002E3E43 /* ZJWorksModel.m */; };
 		0A835B99207DB148002E3E43 /* ZJTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A835B98207DB148002E3E43 /* ZJTagModel.m */; };
+		0AB00F0E2089821900BFED09 /* ZJDiscoverRankCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB00F0D2089821900BFED09 /* ZJDiscoverRankCollectionViewCell.m */; };
+		0AB00F112089896700BFED09 /* ZJDiscoverRankListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB00F102089896700BFED09 /* ZJDiscoverRankListModel.m */; };
+		0AB00F1420898AC000BFED09 /* ZJPictureMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB00F1320898AC000BFED09 /* ZJPictureMetadata.m */; };
+		0AB00F172089E12500BFED09 /* ZJDiscoverRankWaterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB00F162089E12500BFED09 /* ZJDiscoverRankWaterCell.m */; };
+		0AE858E3208D8A1100E98EE2 /* ZMStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE858E1208D8A1100E98EE2 /* ZMStringPickerView.m */; };
+		0AE858E6208D8B6800E98EE2 /* ZMPopBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE858E4208D8B6700E98EE2 /* ZMPopBaseView.m */; };
 		A96674B1EF17B714654D3EAC /* libPods-ZJGACHA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0D750A08A800336EB8F1B3 /* libPods-ZJGACHA.a */; };
 /* End PBXBuildFile section */
 
@@ -378,6 +386,10 @@
 		0A61D23D20885B5E001BEA1C /* ZJDiscoverInsetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverInsetView.m; sourceTree = "<group>"; };
 		0A61D23F20885B5F001BEA1C /* ZJDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverViewController.h; sourceTree = "<group>"; };
 		0A61D24020885B5F001BEA1C /* ZJDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverViewController.m; sourceTree = "<group>"; };
+		0A61D25E20887E14001BEA1C /* ZJDiscoverRankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverRankView.h; sourceTree = "<group>"; };
+		0A61D25F20887E14001BEA1C /* ZJDiscoverRankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverRankView.m; sourceTree = "<group>"; };
+		0A61D264208880C3001BEA1C /* ZJDiscoverRankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverRankViewController.h; sourceTree = "<group>"; };
+		0A61D265208880C3001BEA1C /* ZJDiscoverRankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverRankViewController.m; sourceTree = "<group>"; };
 		0A8358A3207215A3002E3E43 /* ZJGACHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJGACHA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8358A6207215A3002E3E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A8358A7207215A3002E3E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -688,6 +700,18 @@
 		0A835B83207B4D06002E3E43 /* ZJWorksModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJWorksModel.m; sourceTree = "<group>"; };
 		0A835B97207DB148002E3E43 /* ZJTagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTagModel.h; sourceTree = "<group>"; };
 		0A835B98207DB148002E3E43 /* ZJTagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTagModel.m; sourceTree = "<group>"; };
+		0AB00F0C2089821900BFED09 /* ZJDiscoverRankCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverRankCollectionViewCell.h; sourceTree = "<group>"; };
+		0AB00F0D2089821900BFED09 /* ZJDiscoverRankCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverRankCollectionViewCell.m; sourceTree = "<group>"; };
+		0AB00F0F2089896700BFED09 /* ZJDiscoverRankListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverRankListModel.h; sourceTree = "<group>"; };
+		0AB00F102089896700BFED09 /* ZJDiscoverRankListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverRankListModel.m; sourceTree = "<group>"; };
+		0AB00F1220898AC000BFED09 /* ZJPictureMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPictureMetadata.h; sourceTree = "<group>"; };
+		0AB00F1320898AC000BFED09 /* ZJPictureMetadata.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPictureMetadata.m; sourceTree = "<group>"; };
+		0AB00F152089E12500BFED09 /* ZJDiscoverRankWaterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverRankWaterCell.h; sourceTree = "<group>"; };
+		0AB00F162089E12500BFED09 /* ZJDiscoverRankWaterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverRankWaterCell.m; sourceTree = "<group>"; };
+		0AE858E1208D8A1100E98EE2 /* ZMStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMStringPickerView.m; sourceTree = "<group>"; };
+		0AE858E2208D8A1100E98EE2 /* ZMStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMStringPickerView.h; sourceTree = "<group>"; };
+		0AE858E4208D8B6700E98EE2 /* ZMPopBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPopBaseView.m; sourceTree = "<group>"; };
+		0AE858E5208D8B6700E98EE2 /* ZMPopBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPopBaseView.h; sourceTree = "<group>"; };
 		980D200D8B42620B74F9B1E1 /* Pods-ZJGACHA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJGACHA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJGACHA/Pods-ZJGACHA.debug.xcconfig"; sourceTree = "<group>"; };
 		BD0D750A08A800336EB8F1B3 /* libPods-ZJGACHA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJGACHA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9683C72AE75F99D98C57FC /* Pods-ZJGACHA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJGACHA.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJGACHA/Pods-ZJGACHA.release.xcconfig"; sourceTree = "<group>"; };
@@ -740,6 +764,8 @@
 				0A61D21320885B5E001BEA1C /* ZJDiscoverHotRecommendModel.h */,
 				0A61D21420885B5E001BEA1C /* ZJDiscoverArticleModel.h */,
 				0A61D21520885B5E001BEA1C /* ZJDiscoverInsetModel.h */,
+				0AB00F0F2089896700BFED09 /* ZJDiscoverRankListModel.h */,
+				0AB00F102089896700BFED09 /* ZJDiscoverRankListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -750,6 +776,7 @@
 				0A61D21720885B5E001BEA1C /* Recommend */,
 				0A61D22820885B5E001BEA1C /* Article */,
 				0A61D23520885B5E001BEA1C /* Inset */,
+				0A61D25D20887D97001BEA1C /* Rank */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -757,22 +784,22 @@
 		0A61D21720885B5E001BEA1C /* Recommend */ = {
 			isa = PBXGroup;
 			children = (
-				0A61D21820885B5E001BEA1C /* ZJDiscoverRecommendHotCircleCell.m */,
-				0A61D21920885B5E001BEA1C /* ZJDiscoverRecommendMoreTitleCell.m */,
-				0A61D21A20885B5E001BEA1C /* ZJDiscoverRecommendHotTopicCell.m */,
+				0A61D22320885B5E001BEA1C /* ZJDiscoverRecommendView.h */,
 				0A61D21B20885B5E001BEA1C /* ZJDiscoverRecommendView.m */,
+				0A61D21F20885B5E001BEA1C /* ZJDiscoverRecommendHeadView.h */,
+				0A61D22720885B5E001BEA1C /* ZJDiscoverRecommendHeadView.m */,
+				0A61D22120885B5E001BEA1C /* ZJDiscoverRecommendHotCircleCell.h */,
+				0A61D21820885B5E001BEA1C /* ZJDiscoverRecommendHotCircleCell.m */,
+				0A61D22220885B5E001BEA1C /* ZJDiscoverRecommendMoreTitleCell.h */,
+				0A61D21920885B5E001BEA1C /* ZJDiscoverRecommendMoreTitleCell.m */,
+				0A61D22020885B5E001BEA1C /* ZJDiscoverRecommendHotTopicCell.h */,
+				0A61D21A20885B5E001BEA1C /* ZJDiscoverRecommendHotTopicCell.m */,
+				0A61D22620885B5E001BEA1C /* ZJDiscoverRecommendBannerCell.h */,
 				0A61D21C20885B5E001BEA1C /* ZJDiscoverRecommendBannerCell.m */,
 				0A61D21D20885B5E001BEA1C /* ZJDiscoverRecommendHotRecommendCell.h */,
-				0A61D21E20885B5E001BEA1C /* ZMWaterFlowLayout.m */,
-				0A61D21F20885B5E001BEA1C /* ZJDiscoverRecommendHeadView.h */,
-				0A61D22020885B5E001BEA1C /* ZJDiscoverRecommendHotTopicCell.h */,
-				0A61D22120885B5E001BEA1C /* ZJDiscoverRecommendHotCircleCell.h */,
-				0A61D22220885B5E001BEA1C /* ZJDiscoverRecommendMoreTitleCell.h */,
-				0A61D22320885B5E001BEA1C /* ZJDiscoverRecommendView.h */,
-				0A61D22420885B5E001BEA1C /* ZMWaterFlowLayout.h */,
 				0A61D22520885B5E001BEA1C /* ZJDiscoverRecommendHotRecommendCell.m */,
-				0A61D22620885B5E001BEA1C /* ZJDiscoverRecommendBannerCell.h */,
-				0A61D22720885B5E001BEA1C /* ZJDiscoverRecommendHeadView.m */,
+				0A61D22420885B5E001BEA1C /* ZMWaterFlowLayout.h */,
+				0A61D21E20885B5E001BEA1C /* ZMWaterFlowLayout.m */,
 			);
 			path = Recommend;
 			sourceTree = "<group>";
@@ -780,18 +807,18 @@
 		0A61D22820885B5E001BEA1C /* Article */ = {
 			isa = PBXGroup;
 			children = (
-				0A61D22920885B5E001BEA1C /* ZJDiscoverHotArticleCell.m */,
-				0A61D22A20885B5E001BEA1C /* ZJDiscoverHotArticleCellLayout.m */,
-				0A61D22B20885B5E001BEA1C /* ZJDiscoverHotArticleTagsView.m */,
-				0A61D22C20885B5E001BEA1C /* ZJDiscoverHotArticleProfileView.h */,
-				0A61D22D20885B5E001BEA1C /* ZJDiscoverArticleView.m */,
-				0A61D22E20885B5E001BEA1C /* ZJDiscoverArticleBannerCell.h */,
-				0A61D22F20885B5E001BEA1C /* ZJDiscoverHotArticleProfileView.m */,
-				0A61D23020885B5E001BEA1C /* ZJDiscoverHotArticleTagsView.h */,
-				0A61D23120885B5E001BEA1C /* ZJDiscoverHotArticleCellLayout.h */,
-				0A61D23220885B5E001BEA1C /* ZJDiscoverHotArticleCell.h */,
-				0A61D23320885B5E001BEA1C /* ZJDiscoverArticleBannerCell.m */,
 				0A61D23420885B5E001BEA1C /* ZJDiscoverArticleView.h */,
+				0A61D22D20885B5E001BEA1C /* ZJDiscoverArticleView.m */,
+				0A61D23220885B5E001BEA1C /* ZJDiscoverHotArticleCell.h */,
+				0A61D22920885B5E001BEA1C /* ZJDiscoverHotArticleCell.m */,
+				0A61D23120885B5E001BEA1C /* ZJDiscoverHotArticleCellLayout.h */,
+				0A61D22A20885B5E001BEA1C /* ZJDiscoverHotArticleCellLayout.m */,
+				0A61D22C20885B5E001BEA1C /* ZJDiscoverHotArticleProfileView.h */,
+				0A61D22F20885B5E001BEA1C /* ZJDiscoverHotArticleProfileView.m */,
+				0A61D22E20885B5E001BEA1C /* ZJDiscoverArticleBannerCell.h */,
+				0A61D23320885B5E001BEA1C /* ZJDiscoverArticleBannerCell.m */,
+				0A61D23020885B5E001BEA1C /* ZJDiscoverHotArticleTagsView.h */,
+				0A61D22B20885B5E001BEA1C /* ZJDiscoverHotArticleTagsView.m */,
 			);
 			path = Article;
 			sourceTree = "<group>";
@@ -799,14 +826,14 @@
 		0A61D23520885B5E001BEA1C /* Inset */ = {
 			isa = PBXGroup;
 			children = (
-				0A61D23620885B5E001BEA1C /* ZJDiscoverHotInsetCell.h */,
-				0A61D23720885B5E001BEA1C /* ZJDiscoverInsetBannerCell.h */,
-				0A61D23820885B5E001BEA1C /* ZJDiscoverInsetHeadViewCell.m */,
 				0A61D23920885B5E001BEA1C /* ZJDiscoverInsetView.h */,
-				0A61D23A20885B5E001BEA1C /* ZJDiscoverInsetHeadViewCell.h */,
-				0A61D23B20885B5E001BEA1C /* ZJDiscoverInsetBannerCell.m */,
-				0A61D23C20885B5E001BEA1C /* ZJDiscoverHotInsetCell.m */,
 				0A61D23D20885B5E001BEA1C /* ZJDiscoverInsetView.m */,
+				0A61D23620885B5E001BEA1C /* ZJDiscoverHotInsetCell.h */,
+				0A61D23C20885B5E001BEA1C /* ZJDiscoverHotInsetCell.m */,
+				0A61D23720885B5E001BEA1C /* ZJDiscoverInsetBannerCell.h */,
+				0A61D23B20885B5E001BEA1C /* ZJDiscoverInsetBannerCell.m */,
+				0A61D23A20885B5E001BEA1C /* ZJDiscoverInsetHeadViewCell.h */,
+				0A61D23820885B5E001BEA1C /* ZJDiscoverInsetHeadViewCell.m */,
 			);
 			path = Inset;
 			sourceTree = "<group>";
@@ -816,8 +843,23 @@
 			children = (
 				0A61D23F20885B5F001BEA1C /* ZJDiscoverViewController.h */,
 				0A61D24020885B5F001BEA1C /* ZJDiscoverViewController.m */,
+				0A61D264208880C3001BEA1C /* ZJDiscoverRankViewController.h */,
+				0A61D265208880C3001BEA1C /* ZJDiscoverRankViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A61D25D20887D97001BEA1C /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				0A61D25E20887E14001BEA1C /* ZJDiscoverRankView.h */,
+				0A61D25F20887E14001BEA1C /* ZJDiscoverRankView.m */,
+				0AB00F0C2089821900BFED09 /* ZJDiscoverRankCollectionViewCell.h */,
+				0AB00F0D2089821900BFED09 /* ZJDiscoverRankCollectionViewCell.m */,
+				0AB00F152089E12500BFED09 /* ZJDiscoverRankWaterCell.h */,
+				0AB00F162089E12500BFED09 /* ZJDiscoverRankWaterCell.m */,
+			);
+			path = Rank;
 			sourceTree = "<group>";
 		};
 		0A83589A207215A3002E3E43 = {
@@ -1140,6 +1182,7 @@
 		0A8358DC20721885002E3E43 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				0AE858E0208D8A1100E98EE2 /* ZMDatePicker */,
 				0A835B76207B42FE002E3E43 /* iCarousel */,
 				0A835B6A207B42FE002E3E43 /* ZMICarousel */,
 				0A83594320735545002E3E43 /* SPPageMenu */,
@@ -1377,6 +1420,8 @@
 				0A835B83207B4D06002E3E43 /* ZJWorksModel.m */,
 				0A835B97207DB148002E3E43 /* ZJTagModel.h */,
 				0A835B98207DB148002E3E43 /* ZJTagModel.m */,
+				0AB00F1220898AC000BFED09 /* ZJPictureMetadata.h */,
+				0AB00F1320898AC000BFED09 /* ZJPictureMetadata.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1531,6 +1576,17 @@
 				0A835B78207B42FE002E3E43 /* iCarousel.m */,
 			);
 			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		0AE858E0208D8A1100E98EE2 /* ZMDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				0AE858E1208D8A1100E98EE2 /* ZMStringPickerView.m */,
+				0AE858E2208D8A1100E98EE2 /* ZMStringPickerView.h */,
+				0AE858E5208D8B6700E98EE2 /* ZMPopBaseView.h */,
+				0AE858E4208D8B6700E98EE2 /* ZMPopBaseView.m */,
+			);
+			path = ZMDatePicker;
 			sourceTree = "<group>";
 		};
 		B5625E9AD956255764E32D7B /* Frameworks */ = {
@@ -1966,7 +2022,9 @@
 				0A61D25020885B5F001BEA1C /* ZJDiscoverRecommendHotRecommendCell.m in Sources */,
 				0A8358AB207215A3002E3E43 /* ViewController.m in Sources */,
 				0A61D25520885B5F001BEA1C /* ZJDiscoverArticleView.m in Sources */,
+				0AE858E6208D8B6800E98EE2 /* ZMPopBaseView.m in Sources */,
 				0A8358B6207215A3002E3E43 /* main.m in Sources */,
+				0A61D266208880C3001BEA1C /* ZJDiscoverRankViewController.m in Sources */,
 				0A83593820734AC8002E3E43 /* ZJRefreshGifFooter.m in Sources */,
 				0A61D25120885B5F001BEA1C /* ZJDiscoverRecommendHeadView.m in Sources */,
 				0A835942207351DC002E3E43 /* ZJBaseTabelViewCell.m in Sources */,
@@ -1982,11 +2040,14 @@
 				0A61D24820885B5F001BEA1C /* ZJDiscoverHotCirleModel.m in Sources */,
 				0A83592F20732BEB002E3E43 /* ZJLoadFailedView.m in Sources */,
 				0A835B66207A0948002E3E43 /* ZJAuthorModel.m in Sources */,
+				0A61D26020887E14001BEA1C /* ZJDiscoverRankView.m in Sources */,
 				0A8359232072353D002E3E43 /* ZJColor.m in Sources */,
 				0A61D25C20885B5F001BEA1C /* ZJDiscoverViewController.m in Sources */,
 				0A83591820721885002E3E43 /* ZJMessageViewController.m in Sources */,
 				0A61D24920885B5F001BEA1C /* ZJDiscoverRecommendBannerModel.m in Sources */,
+				0AB00F112089896700BFED09 /* ZJDiscoverRankListModel.m in Sources */,
 				0A8358A8207215A3002E3E43 /* AppDelegate.m in Sources */,
+				0AE858E3208D8A1100E98EE2 /* ZMStringPickerView.m in Sources */,
 				0A83592920732460002E3E43 /* YYFPSLabel.m in Sources */,
 				0A835B7B207B42FF002E3E43 /* TADotView.m in Sources */,
 				0A835B7A207B42FF002E3E43 /* TAAnimatedDotView.m in Sources */,
@@ -1997,6 +2058,7 @@
 				0A83594620735545002E3E43 /* SPPageMenu.m in Sources */,
 				0A61D24D20885B5F001BEA1C /* ZJDiscoverRecommendView.m in Sources */,
 				0A61D24220885B5F001BEA1C /* ZJDiscoverHotTopicModel.m in Sources */,
+				0AB00F1420898AC000BFED09 /* ZJPictureMetadata.m in Sources */,
 				0A61D25320885B5F001BEA1C /* ZJDiscoverHotArticleCellLayout.m in Sources */,
 				0A61D25620885B5F001BEA1C /* ZJDiscoverHotArticleProfileView.m in Sources */,
 				0A61D24120885B5F001BEA1C /* ZJDiscoverHotArticleModel.m in Sources */,
@@ -2008,6 +2070,7 @@
 				0A61D24420885B5F001BEA1C /* ZJDiscoverArticleModel.m in Sources */,
 				0A61D24520885B5F001BEA1C /* ZJDiscoverHotRecommendModel.m in Sources */,
 				0A61D24B20885B5F001BEA1C /* ZJDiscoverRecommendMoreTitleCell.m in Sources */,
+				0AB00F172089E12500BFED09 /* ZJDiscoverRankWaterCell.m in Sources */,
 				0A835B7C207B42FF002E3E43 /* TAPageControl.m in Sources */,
 				0A83591920721885002E3E43 /* ZJMineViewController.m in Sources */,
 				0A61D25720885B5F001BEA1C /* ZJDiscoverArticleBannerCell.m in Sources */,
@@ -2022,6 +2085,7 @@
 				0A835926207311D7002E3E43 /* ZJNavigationView.m in Sources */,
 				0A83593220732FCF002E3E43 /* ZJNetworkHelper.m in Sources */,
 				0A61D25420885B5F001BEA1C /* ZJDiscoverHotArticleTagsView.m in Sources */,
+				0AB00F0E2089821900BFED09 /* ZJDiscoverRankCollectionViewCell.m in Sources */,
 				0A83591A20721885002E3E43 /* ZJBaseViewController.m in Sources */,
 				0A835B512079D097002E3E43 /* NSString+ZJNSString.m in Sources */,
 			);

@@ -4,7 +4,7 @@
 //
 //  Created by 尾灯 on 2018/4/10.
 //  Copyright © 2018年 尾灯. All rights reserved.
-//
+//  热门插画
 
 #import "ZJBaseTabelViewCell.h"
 #import "ZJDiscoverRecommendHotRecommendCell.h"
@@ -29,6 +29,6 @@
 
 //根据布局来确定UI
 - (void)setupUIWithInset:(itemStyle)style model:(ZJDiscoverInsetPostModel *)model;
-- (void)setupUIWithPost:(itemStyle)style model:(id)model;
+- (void)setupUIWithRank:(itemStyle)style model:(id)model;
 
 @end

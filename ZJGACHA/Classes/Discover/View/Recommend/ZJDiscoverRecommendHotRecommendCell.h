@@ -30,7 +30,6 @@
 
 //根据布局来确定UI
 - (void)setupUIWithRecommend:(itemStyle)style model:(ZJDiscoverHotRecommendModel *)model;
-- (void)setupUIWithPost:(itemStyle)style model:(id)model;
 
 @end
 

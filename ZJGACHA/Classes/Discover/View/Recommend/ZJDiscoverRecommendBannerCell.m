@@ -7,6 +7,7 @@
 //
 
 #import "ZJDiscoverRecommendBannerCell.h"
+#import "ZJDiscoverRankViewController.h"
 
 @implementation ZJDiscoverRecommendBannerCell
 
@@ -42,9 +43,12 @@
     [self.view.thumbImageView setImageWithURL:[NSURL URLWithString:bannerModel.headFull] placeholder:placeholderAvatarImage];
     self.view.nameLabel.text = [NSString stringWithFormat:@"@%@",bannerModel.authorName];
 }
+
 - (void)clickJumpRank:(UITapGestureRecognizer *)tap
 {
-
+    //跳转排行榜
+    ZJDiscoverRankViewController *rankVC = [[ZJDiscoverRankViewController alloc] init];
+    [self.viewController.navigationController pushViewController:rankVC animated:YES];
 }
 @end
 

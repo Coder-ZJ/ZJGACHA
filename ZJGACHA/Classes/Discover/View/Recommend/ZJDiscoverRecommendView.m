@@ -19,6 +19,7 @@
 #import "ZJDiscoverHotTopicModel.h"
 #import "ZJDiscoverHotCirleModel.h"
 #import "ZJDiscoverHotRecommendModel.h"
+#import "ZJDiscoverRankViewController.h"
 
 @interface ZJDiscoverRecommendView ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -237,7 +238,11 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.section == 1 && indexPath.row == 1) {
+    if (indexPath.section == 0) {
+        //跳转排行榜
+        ZJDiscoverRankViewController *rankVC = [[ZJDiscoverRankViewController alloc] init];
+        [self.viewController.navigationController pushViewController:rankVC animated:YES];
+    }else if (indexPath.section == 1 && indexPath.row == 1) {
         //查看更多专题
         NSLog(@"查看更多专题");
     }else if (indexPath.section == 2 && indexPath.row == 1){

@@ -4,7 +4,7 @@
 //
 //  Created by 尾灯 on 2018/4/9.
 //  Copyright © 2018年 尾灯. All rights reserved.
-//
+//  banner底部按钮
 
 #import "ZJBaseTabelViewCell.h"
 #import "SPPageMenu.h"

@@ -4,7 +4,7 @@
 //
 //  Created by 尾灯 on 2018/4/16.
 //  Copyright © 2018年 尾灯. All rights reserved.
-//  cell布局
+//  热门文章cell布局
 
 #import <Foundation/Foundation.h>
 #import "ZJDiscoverHotArticleModel.h"

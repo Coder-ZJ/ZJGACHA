@@ -8,6 +8,7 @@
 
 #import "ZJHomeViewController.h"
 
+
 @interface ZJHomeViewController ()
 
 @end
@@ -25,6 +26,7 @@
     [super setupNavView];
     [self.navView.centerButton setTitle:@"GACHA" forState:UIControlStateNormal];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

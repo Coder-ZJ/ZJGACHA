@@ -7,6 +7,7 @@
 //
 
 #import "ZJDiscoverHotInsetCell.h"
+#import "ZJDiscoverRankListModel.h"
 
 @interface ZJDiscoverHotInsetCell ()<UICollectionViewDataSource,WaterFlowLayoutDelegate>
 
@@ -198,9 +199,25 @@
     [self.view.thumbImageView setAnimationLoadingImage:[NSURL URLWithString:string] placeholder:placeholderFailImage];
 }
 
-- (void)setupUIWithPost:(itemStyle)style model:(id)model
+- (void)setupUIWithRank:(itemStyle)style model:(id)model
 {
+    ZJDiscoverRankingModel *rankingModel = model;
+    self.view.topLabel.hidden = YES;
+    self.view.bottomShadow.hidden = YES;
+    self.view.topImageView.hidden = YES;
+    self.profileView.backgroundColor = [ZJColor whiteColor];
+    UIImage *image = [UIImage imageNamed:@"discovery_search_user"];
+    self.profileView.thumbImageView.image = image;
+    self.profileView.thumbImageView.layer.cornerRadius = 0;
+    [self.profileView.thumbImageView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(image.size);
+    }];
 
+    self.profileView.nameLabel.textColor = [ZJColor blackColor];
+    self.profileView.nameLabel.text = rankingModel.author.nickName;
+
+    NSString *string = [NSString stringWithFormat:@"%@%@?imageView&axis_5_5&enlarge=1&quality=75&thumbnail=%.0fy%.0f&type=webp",HttpImageURLPre,rankingModel.imgId,rankingModel.imageInfo.realWidth * 2,rankingModel.imageInfo.realHeight * 2 + 40];
+    [self.view.thumbImageView setAnimationLoadingImage:[NSURL URLWithString:string] placeholder:placeholderFailImage];
 }
 
 #pragma mark -----------------lazy-----------------
