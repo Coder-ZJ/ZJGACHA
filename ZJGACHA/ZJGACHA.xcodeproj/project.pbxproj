@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A35779420AA795A008F6CD0 /* ZJPostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A35779320AA795A008F6CD0 /* ZJPostDetailViewController.m */; };
+		0A35779720AA81A0008F6CD0 /* ZJPostDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A35779620AA81A0008F6CD0 /* ZJPostDetailModel.m */; };
+		0A35779A20AA870A008F6CD0 /* ZJRelatedPostsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A35779920AA870A008F6CD0 /* ZJRelatedPostsModel.m */; };
+		0A35779D20AA9325008F6CD0 /* ZJPostDetailBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A35779C20AA9325008F6CD0 /* ZJPostDetailBottomToolView.m */; };
+		0A3577A020AAB011008F6CD0 /* ZJPostDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A35779F20AAB011008F6CD0 /* ZJPostDetailView.m */; };
+		0A3577A320AACE06008F6CD0 /* ZJPostDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577A220AACE06008F6CD0 /* ZJPostDetailCell.m */; };
+		0A3577A620ABCD45008F6CD0 /* NSDate+ZJDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577A520ABCD45008F6CD0 /* NSDate+ZJDateFormat.m */; };
+		0A3577A920AC00F0008F6CD0 /* ZJPostDetailPraiseAuthorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577A820AC00F0008F6CD0 /* ZJPostDetailPraiseAuthorModel.m */; };
+		0A3577AC20AC39E6008F6CD0 /* ZJPostDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577AB20AC39E6008F6CD0 /* ZJPostDetailHeaderView.m */; };
+		0A3577AF20AD3239008F6CD0 /* ZJPostDetailCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577AE20AD3239008F6CD0 /* ZJPostDetailCommentCell.m */; };
+		0A3577B220AD3651008F6CD0 /* ZJPostDetailCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577B120AD3651008F6CD0 /* ZJPostDetailCommentModel.m */; };
+		0A3577BF20AD8685008F6CD0 /* NSAttributedString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577BB20AD8684008F6CD0 /* NSAttributedString+Size.m */; };
+		0A3577C020AD8685008F6CD0 /* XBDPublicEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577BC20AD8684008F6CD0 /* XBDPublicEmptyView.m */; };
+		0A3577C120AD8685008F6CD0 /* UIView+ZJUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577BD20AD8684008F6CD0 /* UIView+ZJUIView.m */; };
+		0A3577C220AD8685008F6CD0 /* NSString+size.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3577BE20AD8684008F6CD0 /* NSString+size.m */; };
 		0A61D24120885B5F001BEA1C /* ZJDiscoverHotArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61D20520885B5E001BEA1C /* ZJDiscoverHotArticleModel.m */; };
 		0A61D24220885B5F001BEA1C /* ZJDiscoverHotTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61D20720885B5E001BEA1C /* ZJDiscoverHotTopicModel.m */; };
 		0A61D24320885B5F001BEA1C /* ZJDiscoverHeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61D20920885B5E001BEA1C /* ZJDiscoverHeadModel.m */; };
@@ -330,6 +345,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A35779220AA795A008F6CD0 /* ZJPostDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailViewController.h; sourceTree = "<group>"; };
+		0A35779320AA795A008F6CD0 /* ZJPostDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailViewController.m; sourceTree = "<group>"; };
+		0A35779520AA81A0008F6CD0 /* ZJPostDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailModel.h; sourceTree = "<group>"; };
+		0A35779620AA81A0008F6CD0 /* ZJPostDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailModel.m; sourceTree = "<group>"; };
+		0A35779820AA870A008F6CD0 /* ZJRelatedPostsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJRelatedPostsModel.h; sourceTree = "<group>"; };
+		0A35779920AA870A008F6CD0 /* ZJRelatedPostsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJRelatedPostsModel.m; sourceTree = "<group>"; };
+		0A35779B20AA9325008F6CD0 /* ZJPostDetailBottomToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailBottomToolView.h; sourceTree = "<group>"; };
+		0A35779C20AA9325008F6CD0 /* ZJPostDetailBottomToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailBottomToolView.m; sourceTree = "<group>"; };
+		0A35779E20AAB011008F6CD0 /* ZJPostDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailView.h; sourceTree = "<group>"; };
+		0A35779F20AAB011008F6CD0 /* ZJPostDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailView.m; sourceTree = "<group>"; };
+		0A3577A120AACE06008F6CD0 /* ZJPostDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailCell.h; sourceTree = "<group>"; };
+		0A3577A220AACE06008F6CD0 /* ZJPostDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailCell.m; sourceTree = "<group>"; };
+		0A3577A420ABCD45008F6CD0 /* NSDate+ZJDateFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZJDateFormat.h"; sourceTree = "<group>"; };
+		0A3577A520ABCD45008F6CD0 /* NSDate+ZJDateFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZJDateFormat.m"; sourceTree = "<group>"; };
+		0A3577A720AC00F0008F6CD0 /* ZJPostDetailPraiseAuthorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailPraiseAuthorModel.h; sourceTree = "<group>"; };
+		0A3577A820AC00F0008F6CD0 /* ZJPostDetailPraiseAuthorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailPraiseAuthorModel.m; sourceTree = "<group>"; };
+		0A3577AA20AC39E6008F6CD0 /* ZJPostDetailHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailHeaderView.h; sourceTree = "<group>"; };
+		0A3577AB20AC39E6008F6CD0 /* ZJPostDetailHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailHeaderView.m; sourceTree = "<group>"; };
+		0A3577AD20AD3239008F6CD0 /* ZJPostDetailCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailCommentCell.h; sourceTree = "<group>"; };
+		0A3577AE20AD3239008F6CD0 /* ZJPostDetailCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailCommentCell.m; sourceTree = "<group>"; };
+		0A3577B020AD3651008F6CD0 /* ZJPostDetailCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPostDetailCommentModel.h; sourceTree = "<group>"; };
+		0A3577B120AD3651008F6CD0 /* ZJPostDetailCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPostDetailCommentModel.m; sourceTree = "<group>"; };
+		0A3577B720AD8684008F6CD0 /* NSAttributedString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Size.h"; sourceTree = "<group>"; };
+		0A3577B820AD8684008F6CD0 /* UIView+ZJUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJUIView.h"; sourceTree = "<group>"; };
+		0A3577B920AD8684008F6CD0 /* XBDPublicEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDPublicEmptyView.h; sourceTree = "<group>"; };
+		0A3577BA20AD8684008F6CD0 /* NSString+size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+size.h"; sourceTree = "<group>"; };
+		0A3577BB20AD8684008F6CD0 /* NSAttributedString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Size.m"; sourceTree = "<group>"; };
+		0A3577BC20AD8684008F6CD0 /* XBDPublicEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDPublicEmptyView.m; sourceTree = "<group>"; };
+		0A3577BD20AD8684008F6CD0 /* UIView+ZJUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJUIView.m"; sourceTree = "<group>"; };
+		0A3577BE20AD8684008F6CD0 /* NSString+size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+size.m"; sourceTree = "<group>"; };
 		0A61D20420885B5E001BEA1C /* ZJDiscoverHotCirleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverHotCirleModel.h; sourceTree = "<group>"; };
 		0A61D20520885B5E001BEA1C /* ZJDiscoverHotArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverHotArticleModel.m; sourceTree = "<group>"; };
 		0A61D20620885B5E001BEA1C /* ZJDiscoverRecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverRecommendModel.h; sourceTree = "<group>"; };
@@ -743,29 +788,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A35779120AA791A008F6CD0 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				0A35779B20AA9325008F6CD0 /* ZJPostDetailBottomToolView.h */,
+				0A35779C20AA9325008F6CD0 /* ZJPostDetailBottomToolView.m */,
+				0A35779E20AAB011008F6CD0 /* ZJPostDetailView.h */,
+				0A35779F20AAB011008F6CD0 /* ZJPostDetailView.m */,
+				0A3577A120AACE06008F6CD0 /* ZJPostDetailCell.h */,
+				0A3577A220AACE06008F6CD0 /* ZJPostDetailCell.m */,
+				0A3577AA20AC39E6008F6CD0 /* ZJPostDetailHeaderView.h */,
+				0A3577AB20AC39E6008F6CD0 /* ZJPostDetailHeaderView.m */,
+				0A3577AD20AD3239008F6CD0 /* ZJPostDetailCommentCell.h */,
+				0A3577AE20AD3239008F6CD0 /* ZJPostDetailCommentCell.m */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		0A3577B620AD8684008F6CD0 /* PublicEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				0A3577B720AD8684008F6CD0 /* NSAttributedString+Size.h */,
+				0A3577BB20AD8684008F6CD0 /* NSAttributedString+Size.m */,
+				0A3577B820AD8684008F6CD0 /* UIView+ZJUIView.h */,
+				0A3577BD20AD8684008F6CD0 /* UIView+ZJUIView.m */,
+				0A3577B920AD8684008F6CD0 /* XBDPublicEmptyView.h */,
+				0A3577BC20AD8684008F6CD0 /* XBDPublicEmptyView.m */,
+				0A3577BA20AD8684008F6CD0 /* NSString+size.h */,
+				0A3577BE20AD8684008F6CD0 /* NSString+size.m */,
+			);
+			path = PublicEmptyView;
+			sourceTree = "<group>";
+		};
 		0A61D20320885B5E001BEA1C /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				0A61D20420885B5E001BEA1C /* ZJDiscoverHotCirleModel.h */,
+				0A61D20F20885B5E001BEA1C /* ZJDiscoverHotCirleModel.m */,
+				0A61D20E20885B5E001BEA1C /* ZJDiscoverHotArticleModel.h */,
 				0A61D20520885B5E001BEA1C /* ZJDiscoverHotArticleModel.m */,
 				0A61D20620885B5E001BEA1C /* ZJDiscoverRecommendModel.h */,
+				0A61D20D20885B5E001BEA1C /* ZJDiscoverRecommendModel.m */,
+				0A61D21320885B5E001BEA1C /* ZJDiscoverHotRecommendModel.h */,
+				0A61D20B20885B5E001BEA1C /* ZJDiscoverHotRecommendModel.m */,
+				0A61D21220885B5E001BEA1C /* ZJDiscoverHotTopicModel.h */,
 				0A61D20720885B5E001BEA1C /* ZJDiscoverHotTopicModel.m */,
 				0A61D20820885B5E001BEA1C /* ZJDiscoverRecommendBannerModel.h */,
-				0A61D20920885B5E001BEA1C /* ZJDiscoverHeadModel.m */,
-				0A61D20A20885B5E001BEA1C /* ZJDiscoverArticleModel.m */,
-				0A61D20B20885B5E001BEA1C /* ZJDiscoverHotRecommendModel.m */,
-				0A61D20C20885B5E001BEA1C /* ZJDiscoverInsetModel.m */,
-				0A61D20D20885B5E001BEA1C /* ZJDiscoverRecommendModel.m */,
-				0A61D20E20885B5E001BEA1C /* ZJDiscoverHotArticleModel.h */,
-				0A61D20F20885B5E001BEA1C /* ZJDiscoverHotCirleModel.m */,
-				0A61D21020885B5E001BEA1C /* ZJDiscoverHeadModel.h */,
 				0A61D21120885B5E001BEA1C /* ZJDiscoverRecommendBannerModel.m */,
-				0A61D21220885B5E001BEA1C /* ZJDiscoverHotTopicModel.h */,
-				0A61D21320885B5E001BEA1C /* ZJDiscoverHotRecommendModel.h */,
+				0A61D21020885B5E001BEA1C /* ZJDiscoverHeadModel.h */,
+				0A61D20920885B5E001BEA1C /* ZJDiscoverHeadModel.m */,
 				0A61D21420885B5E001BEA1C /* ZJDiscoverArticleModel.h */,
+				0A61D20A20885B5E001BEA1C /* ZJDiscoverArticleModel.m */,
 				0A61D21520885B5E001BEA1C /* ZJDiscoverInsetModel.h */,
+				0A61D20C20885B5E001BEA1C /* ZJDiscoverInsetModel.m */,
 				0AB00F0F2089896700BFED09 /* ZJDiscoverRankListModel.h */,
 				0AB00F102089896700BFED09 /* ZJDiscoverRankListModel.m */,
+				0A35779520AA81A0008F6CD0 /* ZJPostDetailModel.h */,
+				0A35779620AA81A0008F6CD0 /* ZJPostDetailModel.m */,
+				0A35779820AA870A008F6CD0 /* ZJRelatedPostsModel.h */,
+				0A35779920AA870A008F6CD0 /* ZJRelatedPostsModel.m */,
+				0A3577A720AC00F0008F6CD0 /* ZJPostDetailPraiseAuthorModel.h */,
+				0A3577A820AC00F0008F6CD0 /* ZJPostDetailPraiseAuthorModel.m */,
+				0A3577B020AD3651008F6CD0 /* ZJPostDetailCommentModel.h */,
+				0A3577B120AD3651008F6CD0 /* ZJPostDetailCommentModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -777,6 +862,7 @@
 				0A61D22820885B5E001BEA1C /* Article */,
 				0A61D23520885B5E001BEA1C /* Inset */,
 				0A61D25D20887D97001BEA1C /* Rank */,
+				0A35779120AA791A008F6CD0 /* Post */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -845,6 +931,8 @@
 				0A61D24020885B5F001BEA1C /* ZJDiscoverViewController.m */,
 				0A61D264208880C3001BEA1C /* ZJDiscoverRankViewController.h */,
 				0A61D265208880C3001BEA1C /* ZJDiscoverRankViewController.m */,
+				0A35779220AA795A008F6CD0 /* ZJPostDetailViewController.h */,
+				0A35779320AA795A008F6CD0 /* ZJPostDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1208,6 +1296,8 @@
 				0A835B382073626B002E3E43 /* NSArray+ZJAdd.m */,
 				0A835B4F2079D097002E3E43 /* NSString+ZJNSString.h */,
 				0A835B502079D097002E3E43 /* NSString+ZJNSString.m */,
+				0A3577A420ABCD45008F6CD0 /* NSDate+ZJDateFormat.h */,
+				0A3577A520ABCD45008F6CD0 /* NSDate+ZJDateFormat.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1215,6 +1305,7 @@
 		0A8358DF20721885002E3E43 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				0A3577B620AD8684008F6CD0 /* PublicEmptyView */,
 				0A835924207311D7002E3E43 /* ZJNavigationView.h */,
 				0A835925207311D7002E3E43 /* ZJNavigationView.m */,
 				0A83592A20732BD4002E3E43 /* ZJLoadingView.h */,
@@ -2016,11 +2107,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3577A320AACE06008F6CD0 /* ZJPostDetailCell.m in Sources */,
+				0A35779420AA795A008F6CD0 /* ZJPostDetailViewController.m in Sources */,
 				0A835B84207B4D06002E3E43 /* ZJWorksModel.m in Sources */,
 				0A61D25220885B5F001BEA1C /* ZJDiscoverHotArticleCell.m in Sources */,
 				0A83591E20721885002E3E43 /* ZJTopicViewController.m in Sources */,
 				0A61D25020885B5F001BEA1C /* ZJDiscoverRecommendHotRecommendCell.m in Sources */,
 				0A8358AB207215A3002E3E43 /* ViewController.m in Sources */,
+				0A3577C020AD8685008F6CD0 /* XBDPublicEmptyView.m in Sources */,
 				0A61D25520885B5F001BEA1C /* ZJDiscoverArticleView.m in Sources */,
 				0AE858E6208D8B6800E98EE2 /* ZMPopBaseView.m in Sources */,
 				0A8358B6207215A3002E3E43 /* main.m in Sources */,
@@ -2032,17 +2126,21 @@
 				0A835B392073626B002E3E43 /* NSArray+ZJAdd.m in Sources */,
 				0A835B7E207B42FF002E3E43 /* iCarousel.m in Sources */,
 				0A835B81207B4CFB002E3E43 /* ZJWorkModel.m in Sources */,
+				0A3577AF20AD3239008F6CD0 /* ZJPostDetailCommentCell.m in Sources */,
 				0A61D24F20885B5F001BEA1C /* ZMWaterFlowLayout.m in Sources */,
+				0A35779D20AA9325008F6CD0 /* ZJPostDetailBottomToolView.m in Sources */,
 				0A61D24C20885B5F001BEA1C /* ZJDiscoverRecommendHotTopicCell.m in Sources */,
 				0A61D25820885B5F001BEA1C /* ZJDiscoverInsetHeadViewCell.m in Sources */,
 				0A61D24A20885B5F001BEA1C /* ZJDiscoverRecommendHotCircleCell.m in Sources */,
 				0A835B99207DB148002E3E43 /* ZJTagModel.m in Sources */,
+				0A3577B220AD3651008F6CD0 /* ZJPostDetailCommentModel.m in Sources */,
 				0A61D24820885B5F001BEA1C /* ZJDiscoverHotCirleModel.m in Sources */,
 				0A83592F20732BEB002E3E43 /* ZJLoadFailedView.m in Sources */,
 				0A835B66207A0948002E3E43 /* ZJAuthorModel.m in Sources */,
 				0A61D26020887E14001BEA1C /* ZJDiscoverRankView.m in Sources */,
 				0A8359232072353D002E3E43 /* ZJColor.m in Sources */,
 				0A61D25C20885B5F001BEA1C /* ZJDiscoverViewController.m in Sources */,
+				0A35779720AA81A0008F6CD0 /* ZJPostDetailModel.m in Sources */,
 				0A83591820721885002E3E43 /* ZJMessageViewController.m in Sources */,
 				0A61D24920885B5F001BEA1C /* ZJDiscoverRecommendBannerModel.m in Sources */,
 				0AB00F112089896700BFED09 /* ZJDiscoverRankListModel.m in Sources */,
@@ -2052,12 +2150,17 @@
 				0A835B7B207B42FF002E3E43 /* TADotView.m in Sources */,
 				0A835B7A207B42FF002E3E43 /* TAAnimatedDotView.m in Sources */,
 				0A61D24320885B5F001BEA1C /* ZJDiscoverHeadModel.m in Sources */,
+				0A3577C120AD8685008F6CD0 /* UIView+ZJUIView.m in Sources */,
+				0A3577BF20AD8685008F6CD0 /* NSAttributedString+Size.m in Sources */,
 				0A835B5A2079E5A8002E3E43 /* ZJImageView.m in Sources */,
 				0A61D25B20885B5F001BEA1C /* ZJDiscoverInsetView.m in Sources */,
 				0A61D24620885B5F001BEA1C /* ZJDiscoverInsetModel.m in Sources */,
 				0A83594620735545002E3E43 /* SPPageMenu.m in Sources */,
 				0A61D24D20885B5F001BEA1C /* ZJDiscoverRecommendView.m in Sources */,
+				0A3577A020AAB011008F6CD0 /* ZJPostDetailView.m in Sources */,
+				0A3577AC20AC39E6008F6CD0 /* ZJPostDetailHeaderView.m in Sources */,
 				0A61D24220885B5F001BEA1C /* ZJDiscoverHotTopicModel.m in Sources */,
+				0A3577A920AC00F0008F6CD0 /* ZJPostDetailPraiseAuthorModel.m in Sources */,
 				0AB00F1420898AC000BFED09 /* ZJPictureMetadata.m in Sources */,
 				0A61D25320885B5F001BEA1C /* ZJDiscoverHotArticleCellLayout.m in Sources */,
 				0A61D25620885B5F001BEA1C /* ZJDiscoverHotArticleProfileView.m in Sources */,
@@ -2066,15 +2169,18 @@
 				0A835B7D207B42FF002E3E43 /* ZMICarouselView.m in Sources */,
 				0A83592C20732BD4002E3E43 /* ZJLoadingView.m in Sources */,
 				0A83591B20721885002E3E43 /* ZJLoginViewController.m in Sources */,
+				0A3577A620ABCD45008F6CD0 /* NSDate+ZJDateFormat.m in Sources */,
 				0A61D24E20885B5F001BEA1C /* ZJDiscoverRecommendBannerCell.m in Sources */,
 				0A61D24420885B5F001BEA1C /* ZJDiscoverArticleModel.m in Sources */,
 				0A61D24520885B5F001BEA1C /* ZJDiscoverHotRecommendModel.m in Sources */,
+				0A35779A20AA870A008F6CD0 /* ZJRelatedPostsModel.m in Sources */,
 				0A61D24B20885B5F001BEA1C /* ZJDiscoverRecommendMoreTitleCell.m in Sources */,
 				0AB00F172089E12500BFED09 /* ZJDiscoverRankWaterCell.m in Sources */,
 				0A835B7C207B42FF002E3E43 /* TAPageControl.m in Sources */,
 				0A83591920721885002E3E43 /* ZJMineViewController.m in Sources */,
 				0A61D25720885B5F001BEA1C /* ZJDiscoverArticleBannerCell.m in Sources */,
 				0A83591C20721885002E3E43 /* ZJNavigationViewController.m in Sources */,
+				0A3577C220AD8685008F6CD0 /* NSString+size.m in Sources */,
 				0A835B79207B42FF002E3E43 /* TAAbstractDotView.m in Sources */,
 				0A835949207355BA002E3E43 /* ZJBaseModel.m in Sources */,
 				0A61D25A20885B5F001BEA1C /* ZJDiscoverHotInsetCell.m in Sources */,

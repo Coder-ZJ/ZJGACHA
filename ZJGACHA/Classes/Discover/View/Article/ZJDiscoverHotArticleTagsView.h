@@ -14,6 +14,20 @@
 
 @property (nonatomic, strong) NSMutableArray *btnArray;
 
+
+/**
+ 设置文章标签数据
+
+ @param tags 标签数据
+ */
 - (void)setupUI:(NSArray *)tags;
+
+
+/**
+ 设置帖子详情标签
+
+ @param tags 标签数据
+ */
+- (void)setupPostDetailTags:(NSArray *)tags;
 
 @end

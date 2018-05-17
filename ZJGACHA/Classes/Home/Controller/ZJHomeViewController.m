@@ -9,7 +9,9 @@
 #import "ZJHomeViewController.h"
 
 
-@interface ZJHomeViewController ()
+@interface ZJHomeViewController ()<UIWebViewDelegate>
+
+@property (nonatomic,strong) UIWebView *webView;
 
 @end
 
@@ -26,6 +28,7 @@
     [super setupNavView];
     [self.navView.centerButton setTitle:@"GACHA" forState:UIControlStateNormal];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

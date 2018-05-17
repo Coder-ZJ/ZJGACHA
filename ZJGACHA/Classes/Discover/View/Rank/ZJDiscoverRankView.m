@@ -11,6 +11,7 @@
 #import "ZJDiscoverRankListModel.h"
 #import "ZJDiscoverRankWaterCell.h"
 #import "ZMStringPickerView.h"
+#import "ZJPostDetailViewController.h"
 
 @interface ZJDiscoverRankView ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
@@ -188,6 +189,14 @@
         };
         return rankWaterCell;
     }
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    ZJPostDetailViewController *postDetailVC = [[ZJPostDetailViewController alloc] init];
+    ZJDiscoverRankingModel *model = self.rankListModel.rankings[indexPath.row];
+    postDetailVC.postId = model.pid;
+    [self.viewController.navigationController pushViewController:postDetailVC animated:YES];
 }
 
 #pragma mark -----------------网络请求-----------------
