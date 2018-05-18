@@ -143,6 +143,7 @@
                 _COSView = insetView;
                 insetView.pageType = pageViewTypeCos;
                 //将当前视图存入数组
+                
                 [self.myChildViewControllers replaceObjectAtIndex:index withObject:insetView];
             }
         }
